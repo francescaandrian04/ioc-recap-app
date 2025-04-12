@@ -21,17 +21,17 @@ public class DemoController {
         return myChef.getDailyRecipe();
     }
 
-    @GetMapping("/dailyrecipe")
+    @GetMapping("/dailyrecipe2")
     public String getDailyRecipe2() {
         return myChef.getDailyRecipe2();
     }
 
-    @GetMapping("/dailyrecipe")
+    @GetMapping("/dailyrecipe3")
     public String getDailyRecipe3() {
         return myChef.getDailyRecipe3();
     }
 
-    @GetMapping("/dailyrecipe")
+    @GetMapping("/dailyrecipe4")
     public String getDailyRecipe4() {
         return myChef.getDailyRecipe4();
     }
